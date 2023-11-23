@@ -1,5 +1,5 @@
 import './App.css';
-// import ClassCounterOne from './components/ClassCounterOne';
+import ClassCounterOne from './components/ClassCounterOne';
 import HookCounterOne from './components/useEffectExample/HookCounterOne';
 // import HookCounterFour from './components/HookCounterFour';
 // import HoocCounterTwo from './components/HoocCounterTwo';
