@@ -1,4 +1,7 @@
 import './App.css';
+import DataFetching from './components/dataFetching/DataFetching';
+import IntervalClassCounter from './components/useEffectExample/IntervalClassCounter';
+import IntervalHookCounter from './components/useEffectExample/IntervalHookCounter';
 // import ClassCounterOne from './components/ClassCounterOne';
 // import ClassMouse from './components/useEffectExample/ClassMouse';
 // import HookMouse from './components/useEffectExample/HookMouse';
@@ -22,8 +25,10 @@ function App() {
       {/* <HookCounterOne /> */}
       {/* <ClassMouse /> */}
       {/* <HookMouse />  */}
-      <MouseContainer />
-
+      {/* <MouseContainer /> */}
+      {/* <IntervalClassCounter /> */}
+      {/* <IntervalHookCounter /> */}
+      <DataFetching />
     </div>
   );
 }
